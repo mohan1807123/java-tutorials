@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Main {
+    public static void main (String[] args){
+        Scanner sc =new Scanner(System.in);
+                System.out.println("movie titlw ");
+        String title=sc.nextLine();
+        System.out.println("year of relase");
+        int relase =sc.nextInt();
+
+        System.out.println("have you watchd");
+        boolean watched=sc.nextBoolean();
+        System.out.println("give your raitng ");
+        double rating=sc.nextDouble();
+        System.out.println("movie title is " +title +"year of relase is "+relase +"have yopu watched"+ watched+" your rating is "+ rating);
+        
+    }
+}
